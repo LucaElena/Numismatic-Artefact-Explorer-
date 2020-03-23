@@ -1,3 +1,21 @@
+body, html {
+    min-width: 320px;
+}
+body {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #222;
+    background-color: #e9ebee;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    overflow-x: hidden;
+}
+
+
 .main_containe {
     position: relative;
 
@@ -33,3 +51,41 @@ img {
     padding: 5px;
     width: 50px;
   }
+ 
+ 
+  footer {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    background: #cfc4c4;
+    color: #000;
+    display: block;
+}
+.btn-link {
+    color: #005eb8;
+    font-weight: 400;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 7px 12px;
+    line-height: 20px;
+    user-select: none;
+}
+.em {
+    display: inline-block;
+    font: normal normal normal 14px/1 ;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    
+}
