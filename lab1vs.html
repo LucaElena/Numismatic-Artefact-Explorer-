@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <title>Numismatic Artefact Explorer</title>
+        <!--link de logare cu css-->
+        <link rel="stylesheet" type="text/css" href="header.css">
+
+    </head>
+
+    <body>
+        <div class="react-contain" data-component-name="landing" >
+            <header class="page-header">
+                <!--imagine de fundal pt header-->
+                <!--img class="back-picture" src="images/header_coins.jpg" alt="background_image"-->
+                <a href="/" class="logo"> <h1>NAEx</h1></a>
+                <nav class="header_container_nav" role="navigation">
+                    <ul>
+                        <li class="header_container_nav_top">
+                            <button type="button"
+                                class="header_container_nav"
+                                aria-haspopup="true"><b>Toputi</b>
+                                
+                                <span class="color_txt" aria-hidden="true">&#x25BC;</span>
+                            </button>
+                            <ul>
+                                <li data-item="TOP" role="menuitem">
+                                    <a href="????/aaa.php????">
+                                        Top cele mai cautate monede
+                                    </a>
+                                </li>
+
+                                <li data-item="TOP" role="menuitem">
+                                    <a href="????/aaa.php????">
+                                        Top cele mai vechi monede
+                                    </a>
+                                </li>
+                                <li data-item="TOP" role="menuitem">
+                                    <a href="????/aaa.php????">
+                                        Top cele mai scumpe monede
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <form class="header_search"
+                    action="/??catalogue/search.php" method="get"
+                    role="search">
+                        <input type="search" name="r"
+                            placeholder="Search NAEx" class="header_search"
+                            aria-label="Search query"
+                            autocomplete="on">
+                        <!--input type="hidden" name="p" value="1"-->
+                        <input type="image"
+                            src="images/search_button.png" alt="Search"
+                            aria-label="Search">
+                </form>
+                <nav class="show_button" role="navigation" >
+                    <ul>
+                        <li class="header_container_menu">
+                            <button type="button"
+                                class="header_container_butt"
+                                aria-haspopup="true">
+                                Autentificare
+                                <span class="color_txt" aria-hidden="true">&#x25BC;</span>
+                            </button>
+                            <ul >
+                                <li data-item="Autentificare" role="menuitem">
+                                    <a
+                                        href="????/connexion/connecter.php????">
+                                        Login
+                                    </a>
+                                </li>
+                                <li data-item="Autentificare" role="menuitem">
+                                    <a href="/ro/docs/.../button"
+                                        title="Lista
+                                        mea de monezi">
+                                        Portofelul meu
+                                    </a>
+                                </li>
+
+                                 <li data-item="Autentificare" role="menuitem">
+                                    <a
+                                        href="????/connexion/connecter.php????">
+                                        <!--::before-->
+                                        Logout
+                                    </a>
+                                </li>
+                                <li data-item="Autentificare" role="menuitem">
+                                    <a
+                                        href="????/connexion/connecter.php????">
+                                        <!--::before-->
+                                        Register
+                                    </a>
+                                </li>
+                                <li data-item="Autentificare" role="menuitem">
+                                    <a
+                                        href="????/connexion/connecter.php????">
+                                        <!--::before-->
+                                        Feedback
+                                    </a>
+                                </li>
+                                <li data-item="Autentificare" role="menuitem">
+                                    <a
+                                        href="????/connexion/connecter.php????">
+                                        <!--::before-->
+                                        Setings
+                                    </a>
+                                </li>
+                                <li data-item="Autentificare" role="menuitem">
+                                    <a
+                                        href="????/connexion/connecter.php????">
+                                        <!--::before-->
+                                        Message
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <img class="profil_picture"
+                                src="images/profil_img.jpg" alt="Profil
+                                picture">
+                            <!--div id = "button_menu", aria-expanded="true" aria-label="Meniul principal" role = "button"-->
+                            <!--nav class="curs_valutar"><ul>
+                            <li class="menu_curs_valutar">
+                                <a href="/curs_valutar.php" title = "curs valutar">
+                                    
+                                    Curs Valutar
+                                </a>
+                            </li>
+                        </nav-->
+                    </li>
+                </nav>
+
+            </header>
+        </div>
+
+        <main id="content">
+            <div class="full_main">
+                <div class="right"></div>
+                   <div class="left">
+                      <div class="quick_links">
+                        <div>
+                            <ol>
+                                <li>
+                                    <a href="/ro/docs/.../button"
+                                        title="Catalogul monezilor.">
+                                        <em>Catalog</em>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/ro/docs/.../button"
+                                        title="Muzeele unde se gasesc
+                                        monede">
+                                        <em>Muzee</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/ro/docs/.../button"
+                                        title="targuri">
+                                        <em>Targuri</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/ro/docs/.../button"
+                                        title="Forum">
+                                        <em>Forum</em>
+                                    </a>
+                                </li>
+                            </ol>
+                            <div class="rate">
+                                <input type="radio" id="star5" name="rate" value="5" />
+                                <label for="star5" title="text">5 stars</label>
+                                <input type="radio" id="star4" name="rate" value="4" />
+                                <label for="star4" title="text">4 stars</label>
+                                <input type="radio" id="star3" name="rate" value="3" />
+                                <label for="star3" title="text">3 stars</label>
+                                <input type="radio" id="star2" name="rate" value="2" />
+                                <label for="star2" title="text">2 stars</label>
+                                 <input type="radio" id="star1" name="rate" value="1" />
+                                 <label for="star1" title="text">1 star</label>
+                                  <p class="hidden"></p>
+                                    <a class="Rating-reviews" href="//"> Recenzii</a>
+                                        <span class="separator">|</span>
+                                        <a class="Rating-reviews" href="..">Adauga recenzia ta</a>
+                                    </p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+
+</html>
