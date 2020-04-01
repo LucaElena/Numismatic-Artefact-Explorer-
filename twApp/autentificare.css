@@ -1,0 +1,84 @@
+.page_autentification{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+}
+
+    
+.form{
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    padding: 0px;
+    text-align: center;
+ 
+}
+
+ input[type=text] {
+    
+    padding: 7px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password] {
+    
+    padding: 7px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 100%;
+    color: grey;
+    padding: 10px;
+    margin: 15px ;
+    border: none;
+    cursor: pointer;
+  }
+
+  .formFooter {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .forgotPass:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    content: "";
+    transition: width 0.2s;
+  }
+  .registration:before {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    content: "";
+    transition: width 0.2s;
+  }
+  .forgotPass:hover {
+    color: #130fec;
+  }
+  
+  .forgotPass:hover::after{
+    width: 100%;
+  }
+  .register:hover {
+    color: #130fec;
+  }
+  
+  .register:hover::before{
+    width: 100%;
+  }
+  
+  
