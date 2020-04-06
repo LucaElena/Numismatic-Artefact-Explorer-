@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Catalog</h3>
+        <form action="index.php" method="get" class="form">
+            <div id="coin_search">
+                <input type="hidden" name="mode" id="search_mode" value="simplifie">
+                <input type="hidden" name="p" value="1">
+                <div id="simple_search">
+                    <select name="1" id="1" class="country_select select2-hidden-accesible " tabindex="-1" aria-hidden="true">
+                        <option data-level="1" value="">All </option>
+                        <option data-level="1" value="afghanistan" data-flag="s">Afghanistan</option> 
+                        <option data-level="1" value="albania_section" data-flag="s">Albania</option>
+                        <option data-level="1" value="algerie" data-flag="s">Algeria</option>
+                        <option data-level="1" value="germany" data-flag="s">Germany</option>
+                        <option data-level="1" value="german" data-flag="s">German Democratic Republic</option>
+                        <option data-level="1" value="croatia" data-flag="s">Croatia</option>
+                        <option data-level="1" value="italy" data-flag="s">Italy</option>
+                        <option data-level="1" value="greece" data-flag="s">Greece</option> 
+                        <option data-level="1" value="roumanie" data-flag="s">Romania</option>
+                        <option data-level="1" value="china" data-flag="s">China</option>
+                        <option data-level="1" value="france_section" data-flag="s">France</option>
+                        <option data-level="1" value="finlande" data-flag="s">Finland</option>
+                        <option data-level="1" value="belgium" data-flag="s">Belgium</option>
+                        <option data-level="1" value="norway" data-flag="s">Norway</option>
+                     </select>
+                     <span class="select2 select2-container select2-container--default" dir="ltr" style="width: 268.112px;">
+                        <span class="selection">
+                            <span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-l-container">
+                            <span class="select2-selection__rendered" id="select2-l-container" title="">
+                                <div class="level1">  </div>
+                            </span>
+                            <span class="select2-selection__arrow" role="presentation">
+                                <b role="presentation"></b>
+                            </span>
+                        </span>
+                      </span>
+                     <span class="dropdown-wrapper" aria-hidden="true"></span>
+                    </span>
+                
+                </div>
+            </div>
+        </form>
+        <div class="card-deck">
+          <div class="card text-center">
+            <a href="piece1.html" rel="nofollow">
+              <div class="card-header">
+                Hit!
+              </div>
+              <img class="card-img-top" src="D:\Catalog\Img\1B.jpg" alt="Card image">
+              <div class="card-body">
+                <p class="card-text text-muted">German Domocratic Republic</p>
+                <a href="piece1.html" rel="nofollow" ><h5 class="card-title">5 Mark 20 Years of GDR - Copper-Nickel</h5></a>
+                <div class="card-footer">
+                  300$
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card text-center">
+            <a href="piece2.html">
+              <div class="card-header">
+                Hit!
+              </div>
+              <img class="card-img-top" src="D:\Catalog\Img\2B.jpg" alt="Card image">
+              <div class="card-body">
+                <p class="card-text text-muted">German Domocratic Republic</p>
+                <a href="piece2.html"><h5 class="card-title">5 Mark Robert Koch</h5></a>
+                <div class="card-footer">
+                  250$
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card text-center">
+            <a href="piece3.html">
+              <div class="card-header">
+                Hit!
+              </div>
+              <img class="card-img-top" src="D:\Catalog\Img\3B.jpg" alt="Card image">
+              <div class="card-body">
+                <p class="card-text text-muted">Greece</p>
+                <a href="piece3.html"><h5 class="card-title">20 Para Countermarked ΣΑ on Turkey</h5></a>
+                <div class="card-footer">
+                  500$
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card text-center">
+            <a href="piece4.html">
+              <div class="card-header">
+                Hit!
+              </div>
+              <img class="card-img-top" src="D:\Catalog\Img\4B.jpg" alt="Card image">
+              <div class="card-body">
+                <p class="card-text text-muted">Italy</p>
+                <a href="piece4.html"><h5 class="card-title"> 2 Ducat - Giovanni Bentivoglio II</h5></a>
+                <div class="card-footer">
+                  1000$
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h3></h3>
+        <div class="card-deck">
+          <div class="card text-center">
+            <a href="pieces5.html">
+              <div class="card-header">
+                Hit!
+              </div>
+              <img class="card-img-top" src="D:\Catalog\Img\5B.jpg" alt="Card image">
+              <div class="card-body">
+                <p class="card-text text-muted">Romania</p>
+                <a href="pieces5.html"><h5 class="card-title">5 Sutimi - Alexandru Ioan Cuza</h5></a>
+                <div class="card-footer">
+                  1500$
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card text-center">
+            <a href="pieces6.html">
+              <div class="card-header">
+                Hit!
+              </div>
+              <img class="card-img-top" src="D:\Catalog\Img\6B.jpg" alt="Card image">
+              <div class="card-body">
+                <p class="card-text text-muted">France</p>
+                <a href="pieces6.html"><h5 class="card-title">Léopard d'or - Edward III - 3rd Issue</h5></a>
+                <div class="card-footer">
+                  3000$
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card text-center">
+            <a href="pieces7.html">
+              <div class="card-header">
+                Hit!
+              </div>
+              <img class="card-img-top" src="D:\Catalog\Img\7A.jpg" alt="Card image">
+              <div class="card-body">
+                <p class="card-text text-muted">China</p>
+                <a href="pieces7.html"><h5 class="card-title">1 Cash - Kaiyuan Middle type</h5></a>
+                <div class="card-footer">
+                  6000$
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card text-center">
+            <a href="pieces8.html">
+              <div class="card-header">
+                Hit!
+              </div>
+              <img class="card-img-top" src="D:\Catalog\Img\8B.jpg" alt="Card image">
+              <div class="card-body">
+                <p class="card-text text-muted">Croatia</p>
+                <a href="pieces8.html"><h5 class="card-title">25 Banica Pattern</h5></a>
+                <div class="card-footer">
+                  1000$
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </body>
+    </html>
